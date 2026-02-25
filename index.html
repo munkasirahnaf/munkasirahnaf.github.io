@@ -1,280 +1,287 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <title>Home | Munkasir Ahnaf</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Engineering portfolio of Munkasir Ahnaf Jisba – Mechanical Engineer and Educator.">
+    <title>Munkasir Ahnaf | Engineering Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
+    <!-- CSS-only mobile menu toggle (checkbox hack) -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+    <label for="menu-toggle" id="mobile-menu-open" class="shadow-large" aria-label="Open navigation menu">
         <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
+    </label>
+    <!-- End #mobile-menu-open -->
+
     <header class="sticky">
-        <div id="mobile-menu-close">
+        <label for="menu-toggle" id="mobile-menu-close" aria-label="Close navigation menu">
             <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-			<li>
-                <a href="#education">Education</a>
-            </li>
-			<li>
-                <a href="#interests">Research</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-			<li>
-                <a href="#experience">Experience</a>
-            </li>
-			<li>
-                <a href="#activities">Activities</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-        </ul>
+        </label>
+        <nav>
+            <ul id="menu" class="shadow">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#interests">Research</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
     </header>
     <!-- End header -->
 
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Munkasir Ahnaf Jisba</h1>
-	    <h3>Mechanical Engineering Graduate | Educator</h3>
-            <a href="files/Resume_Munkasir_Ahnaf_Jisba.pdf" class="btn-rounded-white">View Resume</a>
-        </div>
-        <!-- End #lead-content -->
+    <main>
 
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-	<!-- About Me -->
-    <div id="about" class="background-alt">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        I obtained my Bachelor of Science in Mechanical Engineering degree from Bangladesh University of Engineering & Technology in 2023. I am currently working as a lecturer at a private university in Dhaka, Bangladesh.
-                    </p>
-                </div>
+        <!-- Hero / Lead -->
+        <section id="lead">
+            <div id="lead-content">
+                <h1>Munkasir Ahnaf Jisba</h1>
+                <h2>Mechanical Engineering Graduate | Educator</h2>
+                <a href="files/Resume_Munkasir_Ahnaf_Jisba.pdf" class="btn-rounded-white">View Resume</a>
             </div>
-        </div>
-    </div>
-    <!-- End #about -->
+            <!-- End #lead-content -->
 
-	<!-- Education -->
-	<div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>Bangladesh University of Engineering and Technology</h3>
-            <span class="education-date">March 2018 - May 2023</span>
-            <h4>Bachelor of Science in Mechanical Engineering</h4>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-	
-	<!-- Research Interests -->
-	<div id="interests" class="optional-section background-alt">
-    	<h2 class="heading">Research Interests</h2>
-    	<div class="optional-section-block">
-        	<h3>Carbon Sequestration</h3>
-        	<p>
-			Carbon sequestration encompasses methods and technologies to remove CO<sub>2</sub> from the flue gas and from the atmosphere, followed by recycling the CO<sub>2</sub> for utilization and determining safe and permanent storage options. My interest in this field led me to investigate the adsorption behaviour of zeolites for my undergraduate thesis.
-			</p>
-			<h3>Thermal System Design and Optimization</h3>
-			<p>
-				
-			</p>
-			<h3>Process Systems Engineering</h3>
-			<p>
-				
-			</p>
-    	</div>
-    	<!-- End .optional-section-block -->
-	</div>
-	<!-- End Research Interests -->
-	
-<!-- Personal Projects -->
-    <div id="projects">
-        <h2 class="heading">Personal Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project1.svg" />
+            <div id="lead-overlay"></div>
+
+            <a href="#about" id="lead-down" aria-label="Scroll to About section">
+                <span>
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </span>
+            </a>
+            <!-- End #lead-down -->
+        </section>
+        <!-- End #lead -->
+
+        <!-- About Me -->
+        <section id="about" class="background-alt">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 class="heading">About Me</h2>
                     </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Optimization of CGAM Cogeneration System in IDAES</h3>
+                    <div class="col-md-8">
                         <p>
-                            Optimized solution of the base-case cogeneration system from the book Thermal Design and Optimization (Bejan, 1995). The python program was implemented in IDAES.
+                            I obtained my Bachelor of Science in Mechanical Engineering degree from Bangladesh University of Engineering &amp; Technology in 2023. I am currently working as a lecturer at a private university in Dhaka, Bangladesh.
                         </p>
-                        <a href="https://github.com/munkasirahnaf/bejan-base-case-design">View Project on GitHub</a>
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
             </div>
-        </div>
-    </div>
-    <!-- End Personal projects -->
+        </section>
+        <!-- End #about -->
 
-	
-<!-- Academic projects -->
-	<div class="optional-section background-alt">
-    	<h2 class="heading">Academic Projects & Thesis</h2>
-                    <div class="optional-section-block">
-                        <h3>Molecular Simulation Study on Adsorption of CO<sub>2</sub> in Siliceous Zeolites</h3>
-                        <p>
-                            My <b>undergraduate thesis</b> was to study the adsorption behaviour of siliceous zeolites, which can be used as selective adsorbents for CO<sub>2</sub> separation. Zeolites are a versatile class of materials that can display selective CO<sub>2</sub> adsorption behavior and thus find applications in carbon capture, utilization, and storage (CCUS). Molecular simulations were conducted in Cassandra, an open source Monte Carlo package developed in the Maginn group at the University of Notre Dame. In my journey, I have used multiple Python packages and learned handy typesetting tools for scripting, analyzing and compiling the simulation results. Some of them are listed below.
-                        </p>
-						<ul>
-                        <li>
-                    		Cassandra & MoSDeF Cassandra: for molecular simulations
-                        </li>
-						<li>
-							Matplotlib & seaborn: for visualization
-						</li>
-                        <li>
-							LateX & TikZ: for typesetting
-                        </li>
-                    </ul>
-                        <h3>Design and Development of Cooling System for a Formula Student Racecar</h3>
-                        <p>
-							Academic project completed in fulfilment of a project course in 6th semester (Junior year).
-                        </p>
-						<ul>
-                        <li>
-                    		Course: ME 310 - Thermo Fluid System Design
-                        </li>
-                    </ul>
-                        <h3>Design and Development of a Cam Analyzing Tool</h3>
-                        <p>
-                            Academic project completed in fulfilment of a project course in 5th semester (Junior year).
-                        </p>
-						<ul>
-                        <li>
-                    		Course: ME 366 - Electro-Mechanical System Design
-                        </li>
-                    </ul>
+        <!-- Education -->
+        <section id="education">
+            <h2 class="heading">Education</h2>
+            <div class="education-block">
+                <h3>Bangladesh University of Engineering and Technology</h3>
+                <span class="education-date">March 2018 &ndash; May 2023</span>
+                <h4>Bachelor of Science in Mechanical Engineering</h4>
+            </div>
+            <!-- End .education-block -->
+        </section>
+        <!-- End #education -->
+
+        <!-- Research Interests -->
+        <section id="interests" class="optional-section background-alt">
+            <h2 class="heading">Research Interests</h2>
+            <div class="optional-section-block">
+                <h3>Carbon Sequestration</h3>
+                <p>
+                    Carbon sequestration encompasses methods and technologies to remove CO<sub>2</sub> from the flue gas and from the atmosphere, followed by recycling the CO<sub>2</sub> for utilization and determining safe and permanent storage options. My interest in this field led me to investigate the adsorption behaviour of zeolites for my undergraduate thesis.
+                </p>
+                <h3>Thermal System Design and Optimization</h3>
+                <p>
+                    Design and optimisation of thermal energy systems for improved efficiency and reduced environmental impact.
+                </p>
+                <h3>Process Systems Engineering</h3>
+                <p>
+                    Modelling, simulation, and optimisation of chemical and energy process systems.
+                </p>
+            </div>
+            <!-- End .optional-section-block -->
+        </section>
+        <!-- End #interests -->
+
+        <!-- Personal Projects -->
+        <section id="projects">
+            <h2 class="heading">Personal Projects</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/project1.svg" alt="CGAM Cogeneration System diagram" width="300" height="300">
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Optimization of CGAM Cogeneration System in IDAES</h3>
+                            <p>
+                                Optimized solution of the base-case cogeneration system from the book <em>Thermal Design and Optimization</em> (Bejan, 1995). The Python program was implemented in IDAES.
+                            </p>
+                            <a href="https://github.com/munkasirahnaf/bejan-base-case-design" target="_blank" rel="noopener">View Project on GitHub</a>
+                        </div>
+                        <!-- End .project-info -->
                     </div>
-                    <!-- End .project-info -->
-                <!-- End .project -->
-	</div>
-<!-- Academic Projects -->
-	
-
-	<!-- Experience -->
-    <div id="experience">
-        <h2 class="heading">Work Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="September 2023 – Current">
-                <h3>Sonargaon University</h3>
-                <h4>Lecturer</h4>
+                    <!-- End .project -->
+                </div>
             </div>
+        </section>
+        <!-- End #projects -->
 
-            <div data-date="June 2023 – August 2023">
-                <h3>Sonargaon University</h3>
-                <h4>Adjunct Lecturer</h4>
+        <!-- Academic Projects & Thesis -->
+        <section class="optional-section background-alt">
+            <h2 class="heading">Academic Projects &amp; Thesis</h2>
+            <div class="optional-section-block">
+                <h3>Molecular Simulation Study on Adsorption of CO<sub>2</sub> in Siliceous Zeolites</h3>
+                <p>
+                    My <strong>undergraduate thesis</strong> was to study the adsorption behaviour of siliceous zeolites, which can be used as selective adsorbents for CO<sub>2</sub> separation. Zeolites are a versatile class of materials that can display selective CO<sub>2</sub> adsorption behavior and thus find applications in carbon capture, utilization, and storage (CCUS). Molecular simulations were conducted in Cassandra, an open source Monte Carlo package developed in the Maginn group at the University of Notre Dame.
+                </p>
+                <ul>
+                    <li>Cassandra &amp; MoSDeF Cassandra: for molecular simulations</li>
+                    <li>Matplotlib &amp; seaborn: for visualization</li>
+                    <li>LaTeX &amp; TikZ: for typesetting</li>
+                </ul>
+                <h3>Design and Development of Cooling System for a Formula Student Racecar</h3>
+                <p>
+                    Academic project completed in fulfilment of a project course in 6th semester (Junior year).
+                </p>
+                <ul>
+                    <li>Course: ME 310 &ndash; Thermo Fluid System Design</li>
+                </ul>
+                <h3>Design and Development of a Cam Analyzing Tool</h3>
+                <p>
+                    Academic project completed in fulfilment of a project course in 5th semester (Junior year).
+                </p>
+                <ul>
+                    <li>Course: ME 366 &ndash; Electro-Mechanical System Design</li>
+                </ul>
             </div>
+            <!-- End .optional-section-block -->
+        </section>
+        <!-- End Academic Projects -->
 
-            <div data-date="October 2022 – November 2022">
-                <h3>Advanced Chemical Industries Limited</h3>
-                <h4>Industrial trainee</h4>
+        <!-- Work Experience (pre-built timeline – no JavaScript required) -->
+        <section id="experience">
+            <h2 class="heading">Work Experience</h2>
+            <div id="experience-timeline">
+
+                <div class="vtimeline-point">
+                    <div class="vtimeline-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="vtimeline-block">
+                        <span class="vtimeline-date">September 2023 &ndash; Current</span>
+                        <div class="vtimeline-content">
+                            <h3>Sonargaon University</h3>
+                            <h4>Lecturer</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vtimeline-point">
+                    <div class="vtimeline-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="vtimeline-block">
+                        <span class="vtimeline-date">June 2023 &ndash; August 2023</span>
+                        <div class="vtimeline-content">
+                            <h3>Sonargaon University</h3>
+                            <h4>Adjunct Lecturer</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vtimeline-point">
+                    <div class="vtimeline-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="vtimeline-block">
+                        <span class="vtimeline-date">October 2022 &ndash; November 2022</span>
+                        <div class="vtimeline-content">
+                            <h3>Advanced Chemical Industries Limited</h3>
+                            <h4>Industrial Trainee</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vtimeline-point">
+                    <div class="vtimeline-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="vtimeline-block">
+                        <span class="vtimeline-date">February 2021 &ndash; March 2021</span>
+                        <div class="vtimeline-content">
+                            <h3>Walton Hi-Tech Industries Limited</h3>
+                            <h4>Intern</h4>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-		
-	    <div data-date="February 2021 – March 2021">
-                <h3>Walton Hi-Tech Industries Limited</h3>
-                <h4>Intern</h4>
+        </section>
+        <!-- End #experience -->
+
+        <!-- Extra-Curricular Activities -->
+        <section id="activities" class="optional-section background-alt">
+            <h2 class="heading">Extra-Curricular Activities</h2>
+            <div class="optional-section-block">
+                <h3>BUET Automobile Club</h3>
+                <ul>
+                    <li>Assistant Joint Secretary (2022&ndash;23)</li>
+                    <li>Executive Committee Member (2019&ndash;22)</li>
+                </ul>
+                <h3>Automaestro Formula Student Team</h3>
+                <ul>
+                    <li>Technical Subteam Leader: Vehicle Safety &amp; Electrical System (2021&ndash;23)</li>
+                </ul>
             </div>
-        </div>
-    </div>
-    <!-- End #experience -->
+            <!-- End .optional-section-block -->
+        </section>
+        <!-- End #activities -->
 
-	<!-- Extra-Curricular Activities -->
-	<div id="activities" class="optional-section background-alt">
-    	<h2 class="heading">Extra-Curricular Activities</h2>
-    	<div class="optional-section-block">
-        	<h3>BUET Automobile Club</h3>
-        	<ul>
-            	<li>
-                	Assistant Joint Secretary (2022-23)
-            	</li>
-            	<li>
-                	Executive Committee Member (2019-22)
-            	</li>
-        	</ul>
-			<h3>Automaestro Formula Student Team</h3>
-        	<ul>
-            	<li>
-                	Technical Subteam Leader: Vehicle Safety & Electrical System (2021-23)
-            	</li>
-        	</ul>
-    	</div>
-    	<!-- End .optional-section-block -->
-	</div>
-	<!-- Extra-Curricular Activities -->
+        <!-- Skills -->
+        <section id="skills">
+            <h2 class="heading">Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>MATLAB</li>
+                <li>Octave</li>
+                <li>LaTeX/TikZ</li>
+                <li>Computer-Aided Design</li>
+            </ul>
+        </section>
+        <!-- End #skills -->
 
-	
-	<!-- Skills -->
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>C</li>
-            <li>C++</li>
-			<li>MATLAB</li>
-			<li>Octave</li>
-			<li>LaTeX/TikZ</li>
-			<li>Computer-Aided Design</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
+    </main>
 
     <footer>
-        <div class="container" class="background-alt">
+        <div class="container">
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                	&copy; <span id="current-year"></span> MUNKASIR AHNAF JISBA
+                        &copy; 2026 MUNKASIR AHNAF JISBA
                     </p>
                 </div>
                 <div class="col-sm-2 top">
-                    <span id="to-top">
+                    <a href="#lead" id="to-top" aria-label="Back to top">
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
+                    </a>
                 </div>
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/munkasirahnaf" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/munkasirahnaf" target="_blank" rel="noopener" aria-label="GitHub profile">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
                         </li>
                         <li>
-                            <a href="https://linkedin.com/in/munkasirahnaf/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://linkedin.com/in/munkasirahnaf/" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -283,8 +290,6 @@
     </footer>
     <!-- End footer -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
 </body>
 
 </html>
